@@ -8,7 +8,7 @@ const config = {
           port: 1433,
           database: 'Proyecto',
           options: {
-              encrypt: false,
+              encrypt: true,
               enableArithAbort: true,
           },
 };
